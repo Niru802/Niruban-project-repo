@@ -9,7 +9,7 @@ Create the conda environment:
 ```bash
 conda env create -f environment.yml
 conda activate Niruban-project
-
+```
 
 ## Project Structure
 
