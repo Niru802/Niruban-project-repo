@@ -16,10 +16,14 @@ conda activate Niruban-project
 ```
 Niruban-project/
 ├── src/
-│   ├── __init__.py              
+│   ├── __init__.py              # Makes src a Python package
 │   ├── data_loader.py           # Data loading utilities
 │   ├── models.py                # ML models (Linear, Lasso, Random Forest)
 │   └── evaluation.py            # Results evaluation and saving
+├── notebooks/                   # Jupyter notebooks for exploration
+│   ├── 01. esg_data_exploration.ipynb    # ESG data exploration and visualization
+│   ├── 02. stat_analysis.ipynb           # Statistical analysis
+│   └── 03. machine_learning.ipynb    # ML analysis and experimentation
 ├── data/
 │   └── main_dataset.csv         # Main dataset (ESG + financial data)
 ├── results/                     # Generated results
